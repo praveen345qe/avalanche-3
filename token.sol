@@ -1,4 +1,3 @@
-## Praveen 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -9,7 +8,7 @@ contract MyToken is ERC20, Ownable {
 
     constructor() ERC20("Gaming Token", "GT") Ownable(msg.sender) {
         uint8 tokenDecimals = 0;
-        uint256 initialTokenSupply = 300; // 300 tokens with 0 decimals
+        uint256 initialTokenSupply = 300; 
 
         _mint(_msgSender(), initialTokenSupply * (10**tokenDecimals));
     }
