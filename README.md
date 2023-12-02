@@ -62,6 +62,8 @@ function transferTokens(address to, uint256 TKS) public returns (bool) {
 
 This smart contract is released under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+## Author 
 
-The MyToken contract is built upon the OpenZeppelin library, a widely used and trusted set of contracts for building secure and standard-compliant Ethereum smart contracts. Special thanks to the OpenZeppelin team for their contributions to the Ethereum developer community.
+praveen
+
+pp0555319@gmail.com
